@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply leading-[normal] m-0 font-medium font-['Gilroy'];
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+*,
+::before,
+::after {
+	@apply transition-colors duration-200 border-none;
+}
+
+a {
+	@apply inline-block;
+}
+
+input:focus,
+input:active,
+textarea {
+	outline: none;
+}
+
+.container {
+	@apply max-w-[1160px] mx-auto;
+}
+
+.dark {
+	@apply bg-black-pink;
+	@apply text-white;
+}
+
+.dark .light {
+	color: #fff;
+}
+
+.dark .blue-card {
+	background-color: #64DCFA;
+}
+
+.dark .white-bg {
+	background-color: white;
+	color: #4F4F4F;
+}
+
+.dark .dark-text {
+	color: #4F4F4F;
+}
+.dark .dark-input {
+	background-color: #F3F3F3;
+}
+
+.dark .pink-card {
+	background-color: #9146FF;
+}
+
+@media (prefers-color-scheme: dark) {
+	.dark {
+		@apply bg-black-pink text-white;
+	}
+}
+
+.other-font {
+	font-family: "2MASS J1808 Normal";
+}
+
+.btn:active,
+.btn:focus {
+	box-shadow: 0px 10px 40px 0px rgba(43, 205, 252, 0.50), 0px 8px 0px 0px #098EB7;
+}
+
+.btn,
+.btn-md {
+	border-radius: 6px;
+	background: linear-gradient(93deg, #64DCFA 1.27%, #00C2FF 98.86%);
+	box-shadow: 0px 10px 40px 0px rgba(43, 205, 252, 0.50), 0px 8px 0px 0px #098EB7;
+	padding: 35px 60px;
+	color: #FFF;
+	text-align: center;
+	font-family: "2MASS J1808 Normal";
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 85%;
+	text-transform: uppercase;
+}
+
+.btn-md {
+	font-size: 20px;
+	width: 292px;
+	padding: 0;
+	line-height: 72px;
+	height: 72px;
+}
+
+.dark .title-text,
+.title-text__white {
+	color: #fff;
+}
+
+.title-text,
+.title-text__white {
+	color: #4F4F4F;
+	font-family: "2MASS J1808 Normal";
+	font-size: 57px;
+	font-weight: 400;
+	line-height: 100%;
+	text-transform: uppercase;
+}
+
+.title-text__white {
+	color: #fff;
+}

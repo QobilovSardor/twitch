@@ -1,0 +1,9 @@
+.dark .hero-section {
+	background-image: url(../../assets/images/dark-twitch.png);
+}
+
+.hero-section {
+	background-image: url(../../assets/images/twitch.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
