@@ -1,5 +1,4 @@
-import { useEffect, useState } from "react";
-import { Footer, Header, Main } from "./layouts"
+import { Footer, Main } from "./layouts"
 
 function App() {
 	return (

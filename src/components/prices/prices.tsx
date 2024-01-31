@@ -1,4 +1,4 @@
-import { ChangeEvent, useState } from 'react';
+import { ChangeEvent, SetStateAction, useState } from 'react';
 import './prices.css';
 export const Prices: React.FC = () => {
 	const [sliderValue, setSliderValue] = useState<number>(50);
@@ -19,7 +19,7 @@ export const Prices: React.FC = () => {
 	};
 
 
-	const handleChange = (event) => {
+	const handleChange = (event: { target: { value: SetStateAction<string>; }; }) => {
 		setSelectedValue(event.target.value);
 	};
 

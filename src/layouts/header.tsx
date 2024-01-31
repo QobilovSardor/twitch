@@ -12,12 +12,12 @@ export const Header = () => {
 
 	const toggleDarkMode = () => {
 		setDarkMode(true);
-		setIsButton1Clicked(true);
+		setIsButton1Clicked(!isButton1Clicked);
 	};
 
 	const handleButton2Click = () => {
 		setDarkMode(false);
-		setIsButton1Clicked(false);
+		setIsButton1Clicked(!isButton1Clicked);
 	};
 
 	return (
