@@ -25,8 +25,6 @@ export const Prices: React.FC = () => {
 		
 	};
 
-
-
 	return (
 		<div className='prices mt-[50px] pt-[330px] pb-[20rem]' id='price'>
 			<div className="container">

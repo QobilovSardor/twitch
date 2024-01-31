@@ -26,7 +26,9 @@ input:active,
 textarea {
 	outline: none;
 }
-
+.wrapper {
+	overflow: hidden
+}
 .container {
 	@apply max-w-[1160px] mx-auto;
 }
