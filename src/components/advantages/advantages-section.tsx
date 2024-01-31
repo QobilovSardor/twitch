@@ -1,6 +1,10 @@
+import assets from '../../assets';
 import './advantages-section.css';
 export const AdvantagesSection = () => (
 	<div className="relative" id='advantages'>
+		<div className='dots absolute top-[47%]'>
+	<img src={assets.dotsIcon} alt="dots icon" />
+		</div>
 		<div className="container">
 			<h2 className="title-text">Преимущества</h2>
 
