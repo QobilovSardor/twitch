@@ -4,7 +4,7 @@ export const Footer = () => {
 	return (
 		<footer>
 			<div className="container">
-				<a className="text-white text-3xl font-normal mb-[35px]" href="#!">LOGO</a>
+				<a className="text-white text-3xl font-normal mb-[35px] mt-[50px]" href="#!">LOGO</a>
 				<ul className="flex items-center gap-[41px] justify-center">
 					<li>
 						<a
