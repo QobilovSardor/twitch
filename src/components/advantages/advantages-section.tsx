@@ -1,7 +1,7 @@
 import assets from '../../assets';
 import './advantages-section.css';
 export const AdvantagesSection = () => (
-	<div className="relative" id='advantages'>
+	<div className="relative max-w-[1440px] mx-auto" id='advantages'>
 		<div className='dots absolute top-[47%]'>
 	<img src={assets.dotsIcon} alt="dots icon" />
 		</div>

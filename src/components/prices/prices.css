@@ -1,9 +1,9 @@
 .dark .prices {
-	background-image: url(../../assets/images/prices-dark-bg.png);
+	background-image: url(../../assets/images/prices-dark-bg.webp);
 }
 
 .prices {
-	background-image: url(../../assets/images/prices-bg.png);
+	background-image: url(../../assets/images/prices-bg.webp);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 }

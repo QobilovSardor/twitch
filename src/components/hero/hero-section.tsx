@@ -14,7 +14,7 @@ export const HeroSection = () => {
 					<a className="btn" href="#!">накрутить</a>
 				</div>
 			</div>
-			<img className="absolute z-[-1] bottom-[188px]" src={assets.dotsIcon} alt="dots icon" />
+			<img className="absolute z-[-1] bottom-[188px] hero-dots" src={assets.dotsIcon} alt="dots icon" />
 		</div>
 	)
 }
