@@ -8,11 +8,13 @@
 	background-size: 100% 100%;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1640px) {
 	.hero-section {
 		background-size: 100% 110%;
 	}
+
 	.hero-dots {
-		bottom: 95px !important;
+		bottom: -162px !important;
+		left: -12%;
 	}
 }

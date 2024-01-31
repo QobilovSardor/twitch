@@ -11,10 +11,12 @@ export const HeroSection = () => {
 				<div className="pt-[95px] mb-[95px] text-white font-normal">
 					<h2 className="other-font text-[50px] max-w-[372px] leading-[118.5%]">Накрутка зрителей на Twitch</h2>
 					<p className="text-2xl leading-[118.5%] mt-8 mb-20">Увеличим вашу аудиторию в разы!</p>
-					<a className="btn" href="#!">накрутить</a>
+					<div className="relative">
+						<a className="btn" href="#!">накрутить</a>
+						<img className="absolute z-[-1] bottom-[-163px] left-[-14%] hero-dots" src={assets.dotsIcon} alt="dots icon" />
+					</div>
 				</div>
 			</div>
-			<img className="absolute z-[-1] bottom-[188px] hero-dots" src={assets.dotsIcon} alt="dots icon" />
 		</div>
 	)
 }
