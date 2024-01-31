@@ -14,7 +14,7 @@ export const Order = () => {
 								</div>
 								<textarea className="dark-input rounded-md pt-[14px] pl-[27px] mt-[28px] h-[166px] w-full resize-none" placeholder="Введите текст"></textarea>
 							</div>
-							<input type="submit" value='Отправить' className="btn mb-[44px]" />
+							<input type="submit" value='Отправить' className="btn mb-[44px] cursor-pointer" />
 						</form>
 					</div>
 				</div>
