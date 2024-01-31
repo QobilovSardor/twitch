@@ -14,6 +14,9 @@ export default {
 			},
 			fontFamily: {
 				'2MASS-J1808': '"2MASS J1808 Normal"'
+			},
+			screens: {
+				'1130': '1130px'
 			}
 		},
 	},

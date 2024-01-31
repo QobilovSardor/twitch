@@ -6,7 +6,7 @@ export const HeroSection = () => {
 	return (
 		<div className="hero-section pb-[255px] relative z-10">
 			<div className="container">
-				<Header />
+				<Header /> 
 
 				<div className="pt-[95px] mb-[95px] text-white font-normal">
 					<h2 className="other-font text-[50px] max-w-[372px] leading-[118.5%]">Накрутка зрителей на Twitch</h2>

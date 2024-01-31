@@ -8,6 +8,8 @@
 	background-size: 100% 100%;
 }
 
+
+/* media query */
 @media screen and (min-width: 1640px) {
 	.hero-section {
 		background-size: 100% 110%;
@@ -16,5 +18,19 @@
 	.hero-dots {
 		bottom: -162px !important;
 		left: -12%;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		max-width: 100%;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.media-nav {
+		@apply bg-black-pink fixed w-full h-full top-0 left-0 pl-10 pt-10 z-50
 	}
 }
