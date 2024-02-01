@@ -4,13 +4,14 @@
 
 /* footer */
 footer {
-	background-image: url(../assets/images/footer-bg.webp);
+	background-image: url(/src/assets/images/footer-bg.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-bottom: 108px;
-	padding-top: 235px;
+	padding-bottom: 110px;
+	padding-top: 226px;
 	text-align: center;
-	margin-top: 38px;
+	margin-top: 0px;
+	background-position: -14px 19px;
 }
 
 @media screen and (max-width: 1024px) {

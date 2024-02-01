@@ -4,7 +4,7 @@ export const Footer = () => {
 	return (
 		<footer>
 			<div className="container">
-				<a className="text-white text-3xl font-normal sm:mb-[35px] mb-[33px] sm:mt-[50px]" href="#!">LOGO</a>
+				<a className="text-white text-3xl font-Angry font-normal sm:mb-[35px] mb-[33px] sm:mt-[50px]" href="#!">LOGO</a>
 				<ul className="sm:flex items-center gap-[41px] justify-center sm:space-y-0 space-y-[11px]">
 					<li>
 						<a
@@ -28,14 +28,6 @@ export const Footer = () => {
 							href="#price"
 						>
 							Тарифы
-						</a>
-					</li>
-					<li>
-						<a
-							className="text-white text-lg font-normal leading-10"
-							href="#articles"
-						>
-							Статьи
 						</a>
 					</li>
 					<li>
