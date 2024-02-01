@@ -64,7 +64,9 @@ textarea {
 .dark .pink-card {
 	background-color: #9146FF;
 }
-
+.dark .white-text {
+	color: #fff;
+}
 @media (prefers-color-scheme: dark) {
 	.dark {
 		@apply bg-black-pink text-white;

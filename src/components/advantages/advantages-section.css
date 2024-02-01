@@ -21,6 +21,18 @@
 		top: 15.5% !important;
 	}
 
+	.advantage-box {
+		margin-top: 20px;
+	}
+
+	.advantage-box>div,
+	.advantage-box__two>div {
+		padding: 45px 59px 67px 47px;
+	}
+	#advantages .dots {
+		top: 17% !important;
+	}
+
 	.advantages-boxes .advantage-box__two {
 		padding-right: 24px !important;
 		height: 413px !important;

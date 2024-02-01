@@ -7,6 +7,11 @@
 @media screen and (max-width: 1200px) {
 	.service .service-content {
 		max-width: 400px;
+		margin: 0;
+	}
+
+	.service .dots-img {
+		bottom: 90px;
 	}
 }
 
@@ -17,6 +22,7 @@
 
 	.service .dots-img {
 		left: 58%;
+		bottom: 195px;
 	}
 }
 
@@ -33,6 +39,7 @@
 
 	.service .dots-img {
 		left: 24%;
+		bottom: -48px;
 	}
 }
 
@@ -42,6 +49,7 @@
 		z-index: 100;
 		position: relative;
 	}
+
 	.service .service-content {
 		max-width: 395px;
 		margin: 0;
@@ -61,17 +69,30 @@
 
 @media screen and (max-width: 430px) {
 	.service .service-content {
-		max-width: 350px;
+		max-width: 385px;
 	}
-.service .service-content h3 {
-	font-size: 36px;
-}
+
+	.service .operator-img {
+		max-width: 305.767px;
+		height: 314.543px;
+		border-bottom-right-radius: 160px;
+	}
+
+	.service .dots-img {
+		left: 10%;
+		bottom: -67px;
+	}
+
+	.service .service-content h3 {
+		font-size: 36px;
+	}
+
 	.service .service-content p {
 		font-size: 12px;
 		line-height: 230%;
 	}
 
 	.service .service-content p:last-child {
-		margin-top: 46px;
+		margin-top: 30px;
 	}
 }

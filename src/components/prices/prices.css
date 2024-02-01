@@ -109,8 +109,8 @@ select {
 
 @media screen and (max-width: 800px) {
 	.prices {
-		background-image: url(../../assets/images/prices-media-bg.png);
-		background-size: 100% 100%;
+		background-image: url(../../assets/images/prices-media-bg-2.png);
+		background-size: 106% 99%;
 		padding-top: 240px !important;
 	}
 
@@ -126,5 +126,18 @@ select {
 
 	.btn-md {
 		width: 100% !important;
+	}
+
+	.prices {
+		padding-top: 53px !important;
+		padding-bottom: 210px;
+	}
+
+	.title-text__white {
+		padding-bottom: 103px !important;
+	}
+
+	.prices-boxes {
+		gap: 52px;
 	}
 }

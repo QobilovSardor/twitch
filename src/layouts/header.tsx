@@ -29,7 +29,7 @@ export const Header = () => {
 		<header className="lg:flex items-center justify-between pt-8">
 			<div className="flex items-center justify-between">
 				<a className="text-white text-3xl font-normal font-Angry" href="#!">LOGO</a>
-				<div className="lg:hidden" onClick={handleShow}>
+				<div className="lg:hidden mt-[-16px] mr-[7px]" onClick={handleShow}>
 					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" viewBox="0 0 32 22" fill="none">
 						<path d="M1 1H31" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
 						<path d="M1 11L31 11" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
@@ -98,7 +98,7 @@ export const Header = () => {
 					>светлая</button>
 				</div>
 				<button
-					className="text-center h-[2.2rem] lg:mt-[-9px] w-[163px] bg-violet-500 text-[1rem] text-white rounded border border-white "
+					className="text-center border border-white border-solid h-[2.2rem] lg:mt-[-9px] w-[163px] bg-violet-500 text-[1rem] text-white rounded"
 				>Регистрация/Вход</button>
 			</div>
 		</header >

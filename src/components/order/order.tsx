@@ -1,7 +1,7 @@
 import './order.css';
 export const Order = () => {
 	return (
-		<div className="order sm:mt-[45px] sm:pt-[60px] pt-[73px]" id="order">
+		<div className="order sm:mt-[45px] sm:pt-[60px] pt-[157px]" id="order">
 			<div className="container">
 				<div className="pink-box small-lg:bg-pink rounded-[0.7rem] md:rounded-[6rem]">
 					<div className="form-box relative small-lg:bg-black-pink w-full rounded-br-[5rem] small-lg:pl-[60px] small-lg:pt-[77px] small-lg:pb-[79px] small-lg:pr-[99px] rounded-[0.75rem] md:rounded-br-[15rem] ">
