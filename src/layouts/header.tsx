@@ -44,7 +44,7 @@ export const Header = () => {
 					</svg>
 				</div>
 				<nav>
-					<ul className="lg:flex items-center xl:gap-[29px] md:gap-4">
+					<ul className="lg:flex items-center xl:gap-[29px] md:gap-4 mt-[-9px]">
 						<li>
 							<a
 								className="text-white text-lg font-normal leading-10"
@@ -87,18 +87,18 @@ export const Header = () => {
 						</li>
 					</ul>
 				</nav>
-				<div className="border theme-mode w-fit border-white border-solid rounded lg:flex lg:my-0 my-6 ml-[75px] mr-[45px]">
+				<div className="border theme-mode w-fit lg:mt-[-9px] border-white border-solid rounded lg:flex lg:mb-0 h-[26px] my-6 ml-[75px] mr-[55px]">
 					<button
-						className={`px-3 py-1.5 text-white rounded-l-sm rounded-r ${darkMode ? 'bg-pink' : 'bg-transparent'}`}
+						className={`px-3 text-white rounded-l-sm rounded-r h-full ${darkMode ? 'bg-pink' : 'bg-transparent'}`}
 						onClick={toggleDarkMode}
 					>тёмная</button>
 					<button
-						className={`px-3 py-1.5 rounded-r-sm rounded-l ${darkMode ? 'bg-transparent text-white' : 'bg-white text-black-pink'}`}
+						className={`px-3 rounded-r-sm rounded-l h-full ${darkMode ? 'bg-transparent text-white' : 'bg-white text-black-pink'}`}
 						onClick={handleButton2Click}
 					>светлая</button>
 				</div>
 				<button
-					className="px-4 h-[2.2rem] bg-violet-500 text-[1rem] text-white rounded border border-white "
+					className="text-center h-[2.2rem] lg:mt-[-9px] w-[163px] bg-violet-500 text-[1rem] text-white rounded border border-white "
 				>Регистрация/Вход</button>
 			</div>
 		</header >

@@ -6,6 +6,7 @@
 	background-image: url(../../assets/images/prices-bg.webp);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
+	padding-bottom: 309px;
 }
 
 .prices-boxes {
@@ -18,25 +19,21 @@
 	@apply relative
 }
 
-
-
-
-/* range slider */
-*,
-*:before,
-*:after {
-	box-sizing: border-box;
+.prices .prices-list li {
+	position: relative;
+	line-height: 28.98px;
 }
 
-body {
-	font-family: sans-serif;
-	padding: 60px 20px;
-}
-
-@media (min-width: 600px) {
-	body {
-		padding: 60px;
-	}
+.prices .prices-list li::before {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: -16px;
+	width: 3px;
+	height: 3px;
+	background-color: #4F4F4F;
+	transform: translateY(-50%);
+	border-radius: 50%;
 }
 
 select {
@@ -80,8 +77,8 @@ select {
 
 .range-slider__range::-webkit-slider-thumb {
 	appearance: none;
-	width: 23px;
-	height: 23px;
+	width: 16px;
+	height: 16px;
 	border-radius: 50%;
 	background: #9146FF;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));

@@ -22,13 +22,13 @@ export const Prices: React.FC = () => {
 	const handleChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
 		setSelectedValue(event.target.value);
 		console.log(selectedValue);
-		
+
 	};
 
 	return (
-		<div className='prices mt-[50px] pt-[330px] pb-[20rem]' id='price'>
+		<div className='prices' id='price'>
 			<div className="container">
-				<h2 className="title-text__white pb-[58px]">
+				<h2 className="title-text__white pt-[325px] mt-[-75px] pb-[58px]">
 					Услуги и цены
 				</h2>
 
@@ -42,7 +42,7 @@ export const Prices: React.FC = () => {
 							<h2 className='text-2xl font-normal font-2MASS-J1808 uppercase leading-[3.45rem]'>ЗРИТЕЛИ</h2>
 						</div>
 						<div className='px-[35px] font-normal text-gray text-[17px] pb-[62px]'>
-							<ul className='w-[230px] space-y-[25px] pl-[17px] list-disc mt-8 mb-11'>
+							<ul className='w-[230px] space-y-[25px] pl-[26px] prices-list mt-[32px] mb-[46px]'>
 								<li>Авторизованные зрители</li>
 								<li>Расхождение до 5%</li>
 								<li>Обход проверок</li>
@@ -50,9 +50,9 @@ export const Prices: React.FC = () => {
 								<li>Полный возврат средств при неполадках</li>
 							</ul>
 							<p>Выберите количество зрителей:</p>
-							<div className='mt-6 mb-7'>
+							<div className='mt-[17px] mb-[25px]'>
 								<div className="range-slider w-full">
-									<div className='border border-pink border-solid py-1.5 pl-5 rounded-md text-[17px] font-normal w-[166px] mb-6' id="tooltip">{sliderValue}</div>
+									<div className='border border-pink border-solid py-[9px] pl-5 rounded-md text-[17px] font-normal w-[166px] mb-[17px]' id="tooltip">{sliderValue}</div>
 									<input
 										className='range-slider__range'
 										id="range"
@@ -66,7 +66,7 @@ export const Prices: React.FC = () => {
 								</div>
 							</div>
 							<p>Выберите период:</p>
-							<div className='mt-3 mb-7 relative sel'>
+							<div className='mt-[14px] mb-7 relative sel'>
 								<select onChange={handleChange} className='relative outline-none pl-[19px] w-[166px] rounded-[0.5rem] border border-pink border-5 border-solid h-[2.6rem] text-[1.06rem] font-normal leading-[1.9rem] rounded-7'>
 									<option disabled selected>Месяц</option>
 									<option value="1">1</option>
@@ -82,22 +82,23 @@ export const Prices: React.FC = () => {
 							<a className='btn-md' href="#!">купить за 1500Р</a>
 						</div>
 					</div>
+
 					<div className="price-box bg-white rounded-[0.75rem] sm:rounded-br-[6.25rem] rounded-br-[6rem]">
 						<div className='bg-[#631DCA] w-full relative overflow-hidden rounded-[0.75rem] flex items-center sm:rounded-br-[6.25rem] rounded-br-[6rem] justify-center h-[6rem] text-white'>
 							<h2 className='text-2xl font-normal font-2MASS-J1808 uppercase leading-[3.45rem]'>Фолловеры</h2>
 						</div>
 						<div className='px-[35px] font-normal text-gray text-[17px] pb-[62px]'>
-							<ul className=' space-y-[25px] pl-[17px] list-disc mt-8 mb-11'>
+							<ul className='space-y-[25px] pl-[26px] prices-list mt-[32px] mb-[46px]'>
 								<li>Пожизненная гарантия</li>
 								<li>Расхождение до 5%</li>
 								<li>На большой заказ цена меньше!</li>
 								<li>Техническая поддержка</li>
-								<li>Интервал подписок доступен в панели</li>
+								<li>Интервал подписок <br /> доступен в панели</li>
 							</ul>
-							<p>Выберите количество зрителей:</p>
-							<div className='mt-6 mb-7'>
+							<p>Выберите количество фолловеров:</p>
+							<div className='mt-[17px] mb-[25px]'>
 								<div className="range-slider w-full">
-									<div className='border border-pink border-solid py-1.5 pl-5 rounded-md text-[17px] font-normal w-[166px] mb-6' id="tooltip">{sliderValue2}</div>
+									<div className='border border-pink border-solid py-[9px] pl-5 rounded-md text-[17px] font-normal w-[166px] mb-[17px]' id="tooltip">{sliderValue2}</div>
 									<input
 										className='range-slider__range'
 										id="range"
@@ -110,40 +111,26 @@ export const Prices: React.FC = () => {
 									/>
 								</div>
 							</div>
-							<p>Выберите период:</p>
-							{/* <div className='mt-3 mb-7 relative sel'>
-								<select onChange={handleChange} className='relative outline-none pl-[19px] w-[166px] rounded-[0.5rem] border border-pink border-5 border-solid h-[2.6rem] text-[1.06rem] font-normal leading-[1.9rem] rounded-7'>
-									<option disabled selected>Месяц</option>
-									<option value="1">1</option>
-									<option value="2">2</option>
-									<option value="3">3</option>
-								</select>
-								<div className='down-icon'>
-									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="8" viewBox="0 0 18 10" fill="none">
-										<path d="M1 0.5L9 8.5L17 0.5" stroke="#9146FF" />
-									</svg>
-								</div>
-							</div> */}
-							<a className='btn-md mt-[80px]' href="#!">купить за 1500Р</a>
+							<a className='btn-md mt-[103px]' href="#!">купить за 1500Р</a>
 						</div>
 					</div>
+
 					<div className="price-box bg-white rounded-[0.75rem] sm:rounded-br-[6.25rem] rounded-br-[6rem]">
 						<div className='bg-[#4200A4] w-full relative overflow-hidden rounded-[0.75rem] flex items-center sm:rounded-br-[6.25rem] rounded-br-[6rem] justify-center h-[6rem] text-white'>
 							<h2 className='text-2xl font-normal font-2MASS-J1808 uppercase leading-[3.45rem]'>Просмотры</h2>
 						</div>
-
 						<div className='px-[35px] font-normal text-gray text-[17px] pb-[62px]'>
-							<ul className=' space-y-[25px] pl-[17px] list-disc mt-8 mb-11'>
+							<ul className=' space-y-[25px] pl-[26px] prices-list mt-[32px] mb-[46px]'>
 								<li>Пожизненная гарантия</li>
 								<li>Без расхождения</li>
 								<li>На большой заказ цена меньше!</li>
 								<li>Техническая поддержка</li>
-								<li>Интервал просмотров доступен в панели</li>
+								<li>Интервал просмотров <br /> доступен в панели</li>
 							</ul>
-							<p>Выберите количество зрителей:</p>
-							<div className='mt-6 mb-7'>
+							<p>Выберите количество просмотров:</p>
+							<div className='mt-[17px] mb-[25px]'>
 								<div className="range-slider w-full">
-									<div className='border border-pink border-solid py-1.5 pl-5 rounded-md text-[17px] font-normal w-[166px] mb-6' id="tooltip">{sliderValue3}</div>
+									<div className='border border-pink border-solid py-[9px] pl-5 rounded-md text-[17px] font-normal w-[166px] mb-[17px]' id="tooltip">{sliderValue3}</div>
 									<input
 										className='range-slider__range'
 										id="range"
@@ -157,7 +144,7 @@ export const Prices: React.FC = () => {
 								</div>
 							</div>
 							<p>Выберите период:</p>
-							<div className='mt-3 mb-7 relative sel'>
+							<div className='mt-[14px] mb-7 relative sel'>
 								<select onChange={handleChange} className='relative outline-none pl-[19px] w-[166px] rounded-[0.5rem] border border-pink border-5 border-solid h-[2.6rem] text-[1.06rem] font-normal leading-[1.9rem] rounded-7'>
 									<option disabled selected>Месяц</option>
 									<option value="1">1</option>
