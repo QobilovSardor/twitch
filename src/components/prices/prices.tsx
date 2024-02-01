@@ -33,8 +33,8 @@ export const Prices: React.FC = () => {
 				</h2>
 
 				<div className="prices-boxes">
-					<div className="price-box bg-white rounded-[0.75rem] rounded-br-[6.25rem]">
-						<div className='bg-pink w-full relative overflow-hidden rounded-[0.75rem] flex items-center rounded-br-[6.25rem] justify-center h-[6rem] text-white'>
+					<div className="price-box bg-white rounded-[0.75rem] sm:rounded-br-[6.25rem] rounded-br-[6rem]">
+						<div className='bg-pink w-full relative overflow-hidden rounded-[0.75rem] flex items-center sm:rounded-br-[6.25rem] rounded-br-[6rem] justify-center h-[6rem] text-white'>
 							<div className="absolute bottom-[-22px] left-[-25px] h-11 px-5 py-2.5 origin-top-left -rotate-45 bg-gradient-to-r from-cyan-300 to-sky-500"><div className="w-[7.1rem] text-center text-white text-sm font-normal font-2MASS-J1808 uppercase leading-[0.9rem]">
 								хит <br />  продаж
 							</div>
@@ -82,8 +82,8 @@ export const Prices: React.FC = () => {
 							<a className='btn-md' href="#!">купить за 1500Р</a>
 						</div>
 					</div>
-					<div className="price-box bg-white rounded-[0.75rem] rounded-br-[6.25rem]">
-						<div className='bg-[#631DCA] w-full relative overflow-hidden rounded-[0.75rem] flex items-center rounded-br-[6.25rem] justify-center h-[6rem] text-white'>
+					<div className="price-box bg-white rounded-[0.75rem] sm:rounded-br-[6.25rem] rounded-br-[6rem]">
+						<div className='bg-[#631DCA] w-full relative overflow-hidden rounded-[0.75rem] flex items-center sm:rounded-br-[6.25rem] rounded-br-[6rem] justify-center h-[6rem] text-white'>
 							<h2 className='text-2xl font-normal font-2MASS-J1808 uppercase leading-[3.45rem]'>Фолловеры</h2>
 						</div>
 						<div className='px-[35px] font-normal text-gray text-[17px] pb-[62px]'>
@@ -127,8 +127,8 @@ export const Prices: React.FC = () => {
 							<a className='btn-md mt-[80px]' href="#!">купить за 1500Р</a>
 						</div>
 					</div>
-					<div className="price-box bg-white rounded-[0.75rem] rounded-br-[6.25rem]">
-						<div className='bg-[#4200A4] w-full relative overflow-hidden rounded-[0.75rem] flex items-center rounded-br-[6.25rem] justify-center h-[6rem] text-white'>
+					<div className="price-box bg-white rounded-[0.75rem] sm:rounded-br-[6.25rem] rounded-br-[6rem]">
+						<div className='bg-[#4200A4] w-full relative overflow-hidden rounded-[0.75rem] flex items-center sm:rounded-br-[6.25rem] rounded-br-[6rem] justify-center h-[6rem] text-white'>
 							<h2 className='text-2xl font-normal font-2MASS-J1808 uppercase leading-[3.45rem]'>Просмотры</h2>
 						</div>
 

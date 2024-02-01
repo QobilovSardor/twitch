@@ -9,8 +9,8 @@ export const AdvantagesSection = () => (
 			<h2 className="title-text">Преимущества</h2>
 
 			<div className="advantages-boxes md:mt-[80px] mt-[57px]">
-				<div className='relative advantage-box bg-[#9146FF] rounded-[6rem] w-full'>
-					<div className="relative space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-full text-[#F2F2F2] rounded-br-[12rem] rounded-[0.75rem] bg-black-pink">
+				<div className='relative advantage-box bg-[#9146FF] small-lg:h-full h-[413px] rounded-[6rem] w-full'>
+					<div className="relative space-y-[17px] font-normal px-12 pt-11 h-full pb-[67px] w-full text-[#F2F2F2] rounded-br-[12rem] rounded-[0.75rem] bg-black-pink">
 						<h4 className='text-xl md:leading-[230%] leading-[147.5%] font-heavy'>Соответствие</h4>
 						<p className="text-xl">
 							100% соответствие реальным зрителям. Наши зрители просматривают рекламу, участвуют в голосованиях, прогнозах
@@ -19,7 +19,7 @@ export const AdvantagesSection = () => (
 					</div>
 				</div>
 
-				<div className='relative md:z-0 z-20 bg-black-pink blue-card rounded-[6rem] w-full'>
+				<div className='relative md:z-0 z-20 bg-black-pink blue-card small-lg:h-full h-[413px] rounded-[6rem] w-full'>
 					<div className="relative h-full advantage-box__two space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-full text-gray rounded-br-[12rem] rounded-[0.75rem] bg-white">
 						<h4 className='text-xl md:leading-[230%] leading-[147.5%] font-heavy'>Безопасность</h4>
 						<p className="text-xl">
@@ -28,7 +28,7 @@ export const AdvantagesSection = () => (
 					</div>
 				</div>
 
-				<div className='relative  bg-black-pink blue-card rounded-[6rem] w-full'>
+				<div className='relative  bg-black-pink blue-card small-lg:h-full h-[413px] rounded-[6rem] w-full'>
 					<div className="relative h-full advantage-box__two space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-full text-gray rounded-br-[12rem] rounded-[0.75rem] bg-white">
 						<h4 className='text-xl md:leading-[230%] leading-[147.5%] font-heavy'>Эффективность</h4>
 						<p className="text-xl">
@@ -37,7 +37,7 @@ export const AdvantagesSection = () => (
 					</div>
 				</div>
 
-				<div className='relative  bg-black-pink blue-card rounded-[6rem] w-full'>
+				<div className='relative  bg-black-pink blue-card small-lg:h-full h-[413px] rounded-[6rem] w-full'>
 					<div className="relative h-full advantage-box__two space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-full text-gray rounded-br-[12rem] rounded-[0.75rem] bg-white">
 						<h4 className='text-xl md:leading-[230%] leading-[147.5%] font-heavy'>Анонимность</h4>
 						<p className="text-xl">
@@ -46,7 +46,7 @@ export const AdvantagesSection = () => (
 					</div>
 				</div>
 
-				<div className='relative  bg-black-pink blue-card rounded-[6rem] w-full'>
+				<div className='relative  bg-black-pink blue-card small-lg:h-full h-[413px] rounded-[6rem] w-full'>
 					<div className="relative h-full advantage-box__two space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-full text-gray rounded-br-[12rem] rounded-[0.75rem] bg-white">
 						<h4 className='text-xl md:leading-[230%] leading-[147.5%] font-heavy'>Индивидуальный подход</h4>
 						<p className="text-xl">
@@ -55,7 +55,7 @@ export const AdvantagesSection = () => (
 					</div>
 				</div>
 
-				<div className='relative  bg-black-pink blue-card rounded-[6rem] w-full'>
+				<div className='relative  bg-black-pink blue-card small-lg:h-full h-[413px] rounded-[6rem] w-full'>
 					<div className="relative h-full advantage-box__two space-y-[17px] font-normal px-12 pt-11 pb-[67px] w-full text-gray rounded-br-[12rem] rounded-[0.75rem] bg-white">
 						<h4 className='text-xl md:leading-[230%] leading-[147.5%] font-heavy'>Техническая поддержка</h4>
 						<p className="text-xl">

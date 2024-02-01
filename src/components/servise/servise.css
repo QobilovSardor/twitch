@@ -26,7 +26,52 @@
 	}
 
 	.service .service-content {
-		max-width: 100%;
+		max-width: 600px;
 		margin: 0;
+		margin-bottom: 42px;
+	}
+
+	.service .dots-img {
+		left: 24%;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.service {
+		margin-top: -200px;
+		z-index: 100;
+		position: relative;
+	}
+	.service .service-content {
+		max-width: 395px;
+		margin: 0;
+		margin-bottom: 42px;
+	}
+
+	.service .operator-img {
+		max-width: 309.767px;
+		height: 318.543px;
+	}
+
+	.service .dots-img {
+		left: 10.5%;
+		bottom: -64px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.service .service-content {
+		max-width: 350px;
+	}
+.service .service-content h3 {
+	font-size: 36px;
+}
+	.service .service-content p {
+		font-size: 12px;
+		line-height: 230%;
+	}
+
+	.service .service-content p:last-child {
+		margin-top: 46px;
 	}
 }

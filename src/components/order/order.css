@@ -3,3 +3,38 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
+
+
+.dark .order form {
+	background-color: transparent;
+}
+
+.dark .order .form-box {
+	background-color: white;
+}
+.dark .order .pink-box {
+	background-color: #64DCFA;
+}
+@media screen and (max-width: 992px) {
+	.dark .order form {
+		background-color: white;
+	}
+		.dark .order .pink-box {
+			background-color: transparent;
+		}
+
+	.dark .order .form-box {
+		background-color: transparent;
+	}
+
+	.dark .order h3 {
+		color: white !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.dark .order {
+		background-image: none;
+	}
+}
