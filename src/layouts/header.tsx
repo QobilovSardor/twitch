@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-
+import './layout.css'
 export const Header = () => {
 	const [darkMode, setDarkMode] = useState(() => localStorage.getItem('darkMode') === 'enabled');
 	// eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -28,7 +28,7 @@ export const Header = () => {
 	return (
 		<header className="lg:flex items-center justify-between pt-8">
 			<div className="flex items-center justify-between">
-				<a className="text-white text-3xl font-normal" href="#!">LOGO</a>
+				<a className="text-white text-3xl font-normal font-Angry" href="#!">LOGO</a>
 				<div className="lg:hidden" onClick={handleShow}>
 					<svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" viewBox="0 0 32 22" fill="none">
 						<path d="M1 1H31" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
@@ -37,14 +37,14 @@ export const Header = () => {
 					</svg>
 				</div>
 			</div>
-			<div className={`media-nav lg:flex lg:justify-between lg:items-center 1130:gap-[60px] lg:gap-6 transition-all duration-200 ${show ? 'left-0' : 'left-[-100%]'}`}>
+			<div className={`media-nav lg:flex lg:justify-between lg:items-center transition-all duration-200 ${show ? 'left-0' : 'left-[-100%]'}`}>
 				<div className="lg:hidden absolute top-10 right-10" onClick={handleShow}>
 					<svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24" strokeWidth={1.5} stroke="white" className="w-6 h-6">
 						<path strokeLinecap="round" fill="white" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12" />
 					</svg>
 				</div>
 				<nav>
-					<ul className="lg:flex items-center xl:gap-[1.875rem] md:gap-4">
+					<ul className="lg:flex items-center xl:gap-[29px] md:gap-4">
 						<li>
 							<a
 								className="text-white text-lg font-normal leading-10"
@@ -87,7 +87,7 @@ export const Header = () => {
 						</li>
 					</ul>
 				</nav>
-				<div className="border w-fit border-white border-solid rounded lg:flex lg:my-0 my-6">
+				<div className="border theme-mode w-fit border-white border-solid rounded lg:flex lg:my-0 my-6 ml-[75px] mr-[45px]">
 					<button
 						className={`px-3 py-1.5 text-white rounded-l-sm rounded-r ${darkMode ? 'bg-pink' : 'bg-transparent'}`}
 						onClick={toggleDarkMode}

@@ -13,7 +13,8 @@ export default {
 				'gray': '#4F4F4F'
 			},
 			fontFamily: {
-				'2MASS-J1808': '"2MASS J1808 Normal"'
+				'2MASS-J1808': '"2MASS J1808 Normal"',
+				'Angry': 'Angry'
 			},
 			screens: {
 				'1130': '1130px'

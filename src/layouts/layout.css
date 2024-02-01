@@ -12,3 +12,37 @@ footer {
 	text-align: center;
 	margin-top: 38px;
 }
+
+@media screen and (max-width: 1024px) {
+	.media-nav {
+		@apply bg-black-pink fixed w-full h-full top-0 left-0 pl-10 pt-10 z-50
+	}
+}
+
+@media screen and (max-width: 1110px) {
+	.theme-mode {
+		margin-left: 15px !important;
+		margin-right: 15px !important;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.theme-mode {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	footer {
+		background-image: url(../assets/images/footer-media-bg.png);
+		padding-top: 335px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	footer {
+		padding-top: 235px;
+		padding-bottom: 106px;
+	}
+}

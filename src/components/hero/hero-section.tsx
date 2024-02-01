@@ -4,16 +4,15 @@ import './hero-section.css'
 
 export const HeroSection = () => {
 	return (
-		<div className="hero-section pb-[255px] relative z-10">
-			<div className="container">
-				<Header /> 
-
-				<div className="pt-[95px] mb-[95px] text-white font-normal">
-					<h2 className="other-font text-[50px] max-w-[372px] leading-[118.5%]">Накрутка зрителей на Twitch</h2>
-					<p className="text-2xl leading-[118.5%] mt-8 mb-20">Увеличим вашу аудиторию в разы!</p>
-					<div className="relative">
+		<div className="hero-section md:pb-[255px] pb-[295px] relative z-10">
+			<div className="container relative">
+				<Header />
+				<div className="md:pt-[95px] pt-[34px] md:mb-[95px] mb-[232px] text-white font-normal md:text-left text-center">
+					<h2 className="other-font text-[50px] md:max-w-[372px] leading-[118.5%]">Накрутка зрителей на Twitch</h2>
+					<p className="text-2xl leading-[118.5%] md:mt-8 md:mb-20 mb-[347px] mt-[34px] md:w-auto w-[309px] md:mx-0 mx-auto">Увеличим вашу аудиторию в разы!</p>
+					<div className="sm:relative nakrutka-box">
 						<a className="btn" href="#!">накрутить</a>
-						<img className="absolute z-[-1] bottom-[-163px] left-[-14%] hero-dots" src={assets.dotsIcon} alt="dots icon" />
+						<img className="absolute sm:z-[-1] sm:bottom-[-163px] sm:left-[-14%] top-[29%] right-[-177px] left-auto hero-dots" src={assets.dotsIcon} alt="dots icon" />
 					</div>
 				</div>
 			</div>

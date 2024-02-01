@@ -29,8 +29,14 @@
 	}
 }
 
-@media screen and (max-width: 1024px) {
-	.media-nav {
-		@apply bg-black-pink fixed w-full h-full top-0 left-0 pl-10 pt-10 z-50
+@media screen and (max-width: 768px) {
+	.hero-section {
+		background-image: url('../../assets/images/media-bg.png');
+		background-size: 100% 100%;
+	}
+
+	.dark .hero-section {
+		background-image: url('../../assets/images/hero-bg-media-dark.png');
+		background-size: 100% 100%;
 	}
 }
