@@ -96,3 +96,17 @@
 		margin-top: 30px;
 	}
 }
+
+@media screen and (max-width: 420px) {
+	.service .service-content h3 {
+		margin-left: 0;
+	}
+
+	.service .service-content {
+		max-width: 330px;
+	}
+
+	.service .service-content p {
+		margin-left: 0;
+	}
+}

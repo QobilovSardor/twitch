@@ -29,6 +29,7 @@
 	.advantage-box__two>div {
 		padding: 45px 59px 67px 47px;
 	}
+
 	#advantages .dots {
 		top: 17% !important;
 	}
@@ -36,6 +37,30 @@
 	.advantages-boxes .advantage-box__two {
 		padding-right: 24px !important;
 		height: 413px !important;
+	}
+}
+
+@media screen and (max-width: 410px) {
+
+	.advantage-box,
+	.advantage-box__two {
+		height: 100% !important;
+	}
+
+	.advantage-box__two:last-child {
+		padding-right: 30px !important;
+	}
+
+	.advantages-boxes .advantage-box__two {
+		height: 100% !important;
+	}
+
+	.advantages-boxes>div {
+		height: 100%;
+	}
+
+	#advantages .dots {
+		top: 19.5% !important;
 	}
 }
 

@@ -1,0 +1,5 @@
+@media screen and (max-width: 410px) {
+	.articles-boxes>div {
+		height: 100%;
+	}
+}

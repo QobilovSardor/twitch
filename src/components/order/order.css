@@ -62,10 +62,19 @@
 		margin-left: 0;
 		font-family: 'Gilroy';
 	}
+
 	.form-box form input {
 		height: 46px;
 	}
-		.form-box form textarea {
-			height: 150px;
-		}
+
+	.form-box form textarea {
+		height: 150px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.pink-box form button {
+		padding-left: 0;
+		padding-right: 0;
+	}
 }
