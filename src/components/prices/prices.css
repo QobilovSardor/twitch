@@ -38,6 +38,7 @@ body {
 		padding: 60px;
 	}
 }
+
 select {
 	-webkit-appearance: none;
 	-moz-appearance: none;
@@ -99,4 +100,34 @@ select {
 	box-shadow: 0 0 0 3px #fff;
 	cursor: pointer;
 	transition: background 0.15s ease-in-out;
+}
+
+@media screen and (max-width: 1220px) {
+	.prices {
+		padding-top: 490px !important;
+		background-size: cover;
+		background-position: center;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.prices {
+		background-image: url(../../assets/images/prices-media-bg.png);
+		background-size: 100% 100%;
+		padding-top: 240px !important;
+	}
+
+	.dark .prices {
+		background-image: url(../../assets/images/price-dark-media-bg.png);
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.prices-boxes {
+		grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+	}
+
+	.btn-md {
+		width: 100% !important;
+	}
 }
