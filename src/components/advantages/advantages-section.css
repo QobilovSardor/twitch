@@ -16,11 +16,12 @@
 	.advantages-boxes {
 		grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
 	}
+
 	.dots {
 		top: 15.5% !important;
 	}
 
-	.advantage-box__two {
+	.advantages-boxes .advantage-box__two {
 		padding-right: 24px !important;
 		height: 413px !important;
 	}

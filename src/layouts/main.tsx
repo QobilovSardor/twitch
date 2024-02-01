@@ -4,10 +4,10 @@ import { Order } from "../components/order/order";
 export const Main = () => (
 	<main>
 		<HeroSection  />
-		{/* <Servise /> */}
+		<Servise />
 		<AdvantagesSection />
 		<Prices />
-		{/* <Articles /> */}
-		{/* <Order /> */}
+		<Articles />
+		<Order />
 	</main>
 )
