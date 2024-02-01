@@ -1,0 +1,32 @@
+@media screen and (max-width: 1288px) {
+	.service .service-content {
+		margin-left: 30px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.service .service-content {
+		max-width: 400px;
+	}
+}
+
+@media screen and (max-width: 1072px) {
+	.service .operator-img {
+		max-width: 500px;
+	}
+
+	.service .dots-img {
+		left: 58%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.service .container {
+		margin-left: 0;
+	}
+
+	.service .service-content {
+		max-width: 100%;
+		margin: 0;
+	}
+}

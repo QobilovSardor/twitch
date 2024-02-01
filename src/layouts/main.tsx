@@ -5,7 +5,7 @@ export const Main = () => (
 	<main>
 		<HeroSection  />
 		{/* <Servise /> */}
-		{/* <AdvantagesSection /> */}
+		<AdvantagesSection />
 		{/* <Prices /> */}
 		{/* <Articles /> */}
 		{/* <Order /> */}

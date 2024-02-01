@@ -1,4 +1,3 @@
-
 .advantages-boxes {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
@@ -11,4 +10,24 @@
 
 .advantage-box__two {
 	box-shadow: 0px 6px 29px 0px rgba(41, 26, 93, 0.15);
+}
+
+@media screen and (max-width: 430px) {
+	.advantages-boxes {
+		grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+	}
+	.dots {
+		top: 15.5% !important;
+	}
+
+	.advantage-box__two {
+		padding-right: 24px !important;
+		height: 413px !important;
+	}
+}
+
+@media screen and (max-width: 395px) {
+	.dots {
+		top: 17.6% !important;
+	}
 }

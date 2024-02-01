@@ -14,10 +14,12 @@ export default {
 			},
 			fontFamily: {
 				'2MASS-J1808': '"2MASS J1808 Normal"',
-				'Angry': 'Angry'
+				'Angry': 'Angry',
+				'heavy': '"2MASS J1808"',
 			},
 			screens: {
-				'1130': '1130px'
+				'1130': '1130px',
+				'small-lg': '992px'
 			}
 		},
 	},

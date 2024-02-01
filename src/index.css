@@ -26,9 +26,11 @@ input:active,
 textarea {
 	outline: none;
 }
+
 .wrapper {
 	overflow: hidden
 }
+
 .container {
 	@apply max-w-[1160px] mx-auto;
 }
@@ -54,6 +56,7 @@ textarea {
 .dark .dark-text {
 	color: #4F4F4F;
 }
+
 .dark .dark-input {
 	background-color: #F3F3F3;
 }
@@ -118,4 +121,27 @@ textarea {
 
 .title-text__white {
 	color: #fff;
+}
+
+@media screen and (max-width: 655px) {
+
+	.title-text,
+	.title-text__white {
+		font-size: 36px;
+		line-height: 100%;
+	}
+}
+@media screen and (max-width: 420px) {
+
+	.title-text,
+	.title-text__white {
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 1200px) {
+	.container {
+		max-width: 100%;
+		padding-left: 25px;
+		padding-right: 25px;
+	}
 }
