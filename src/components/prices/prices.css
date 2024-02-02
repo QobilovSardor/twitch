@@ -4,6 +4,7 @@
 
 .prices {
 	background-image: url(../../assets/images/prices-bg.webp);
+	/* background-image: url(../../assets/images/pricesbg.png); */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	padding-bottom: 309px;
@@ -109,13 +110,15 @@ select {
 
 @media screen and (max-width: 800px) {
 	.prices {
-		background-image: url(../../assets/images/prices-media-bg-2.png);
-		background-size: 106% 99%;
+		/* background-image: url(../../assets/images/prices-media-bg-2.png); */
+		background-image: url(../../assets/images/prices-bg.png);
+		background-size: 150% 121%;
 		padding-top: 240px !important;
 	}
 
 	.dark .prices {
 		background-image: url(../../assets/images/price-dark-media-bg.png);
+		background-size: 298% 100%;
 	}
 }
 
