@@ -28,7 +28,7 @@ export const Prices: React.FC = () => {
 	return (
 		<div className='prices' id='price'>
 			<div className="container">
-				<h2 className="title-text__white pt-[325px] mt-[-75px] pb-[58px]">
+				<h2 className="title-text__white sm:pt-[488px] pt-[327px] mt-[-75px] pb-[58px]">
 					Услуги и цены
 				</h2>
 

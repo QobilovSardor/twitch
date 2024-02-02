@@ -10,7 +10,8 @@
 	background-color: transparent;
 }
 
-.order input::placeholder {
+.order input::placeholder,
+.order form textarea::placeholder {
 	color: rgb(111, 111, 111);
 	font-size: 17px;
 }

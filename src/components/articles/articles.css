@@ -3,3 +3,9 @@
 		height: 100%;
 	}
 }
+
+@media screen and (max-width: 800px) {
+	.articles {
+		margin-top: 0 !important;
+	}
+}

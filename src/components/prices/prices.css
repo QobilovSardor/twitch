@@ -3,11 +3,11 @@
 }
 
 .prices {
-	background-image: url(../../assets/images/prices-bg.webp);
+	background-image: url(../../assets/images/prices-3x.webp);
 	/* background-image: url(../../assets/images/pricesbg.png); */
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	padding-bottom: 309px;
+	padding-bottom: 510px;
 }
 
 .prices-boxes {

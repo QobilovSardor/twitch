@@ -3,14 +3,20 @@
 }
 
 .hero-section {
-	background-image: url(../../assets/images/twitch.svg);
-	/* background-image: url(../../assets/images/twitch.webp); */
+	background-image: url(../../assets/images/hero-3x.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 
 /* media query */
+@media screen and (min-width: 1440px) {
+	.hero-section {
+		background-size: 100% 120%;
+		padding-bottom: 581px !important;
+	}
+}
+
 @media screen and (min-width: 1640px) {
 	.hero-dots {
 		bottom: -162px !important;

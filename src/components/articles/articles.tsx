@@ -1,7 +1,7 @@
 import './articles.css';
 export const Articles = () => {
 	return (
-		<div className="articles" id="articles">
+		<div className="articles mt-[-168px]" id="articles">
 			<div className="container">
 				<h2 className="title-text sm:mt-0 mt-[88px]">статьи</h2>
 
