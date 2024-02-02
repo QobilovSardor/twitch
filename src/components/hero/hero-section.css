@@ -12,7 +12,8 @@
 /* media query */
 @media screen and (min-width: 1440px) {
 	.hero-section {
-		background-size: 100% 120%;
+		background-size: 105% 120%;
+		height: 926px;
 		padding-bottom: 581px !important;
 	}
 }
